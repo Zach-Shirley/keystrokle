@@ -1,6 +1,6 @@
 # Keystrokle
 
-**Play it: https://LIVE_URL**
+**Play it: https://keystrokle.vercel.app**
 
 **Status: Finished v1.0, playable.** Daily and practice modes, stats, streaks and sharing all work. Not yet tried by real players.
 
@@ -49,7 +49,7 @@ npm run build      # type-check + production build into dist/
 npm run simulate   # guess-count simulation (about a minute)
 ```
 
-The code is Vite plus TypeScript with no framework: about 600 lines of game code and no runtime dependencies.
+The code is Vite plus TypeScript with no framework: about 950 lines of TypeScript and no runtime dependencies.
 
 ## Why 6 guesses
 
@@ -126,7 +126,7 @@ No third-party assets. The keyboard, icons and favicon are hand-written SVG and 
 
 ## Deployment
 
-Hosted on Vercel at https://LIVE_URL. DEPLOY_NOTE
+Hosted on Vercel at https://keystrokle.vercel.app. Pushes to `main` auto-deploy through Vercel Git integration. Manual deploy: `vercel deploy --prod` from a linked checkout.
 
 ## License
 
